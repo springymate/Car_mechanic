@@ -1,0 +1,288 @@
+<!DOCTYPE <html>   
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial>
+    <title>Apna Mechanic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{ 
+    background-color: rgb(254, 143, 143);
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 99px;
+    background-color: rgb(255, 54, 54);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 1.02rem;
+}
+main hr {
+    border: 0;
+    background: #ed8f8f;
+    height: 1.2px;
+    margin: 50px 50px;
+}
+.left{
+    font-size: 2rem;
+}
+.FirstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0;
+}
+.FirstSection > div{
+    width: 35%;
+}
+.LeftSection{
+    font-size: 2rem;
+}
+.LeftSection .btn{
+    padding: 10px;
+    font-size: 20;
+    background-color: rgb(255, 54, 54);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 148, 148);
+    border-radius: 6px;
+    cursor: pointer;
+    margin: initial;
+}
+.text-gray{
+    color: rgb(0, 0, 0);
+}
+.RightSection img{
+    color: rgb(0, 0, 33);
+    width: 80%;
+    margin: 50px 0;
+    
+    }
+    .Red{
+        color: rgb(251, 1, 1);
+    }
+    #element{
+        color: rgb(251, 1, 1);
+    }
+    .SecondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+    .SecondSection h1{
+        font-size: 2rem;
+    }
+    .SecondSection .box{
+        background: white;
+        width: 80vw;
+        height: 2px; 
+        margin: 60px 0;
+        display: flex;
+    }
+    .SecondSection .vertical{
+        height: 80px;
+        width: 3px;
+        background-color: white;
+        margin: 0 13vw;
+    }
+    .section-work-data {
+        background: var(--gradientSupport);
+        text-align: center;
+        transition: all 0.7s linear;
+    }
+    .counter-number{
+        font-size: 4.8rem;
+        color: rgb(0, 0, 0);
+    }
+    .section-work-data p {
+        color: var(--white);
+        text-transform: capitalize;
+    }
+    .image-top{
+        width: 35px ;
+        top: -40px;
+        left: -9px;
+        position: relative;
+    }
+    .vertical-title{
+        position: relative;
+        top: 55px;
+        left: -50px;
+        width: 160px;
+        font-size: 18px;
+    }
+    .vertical-desc{
+        position: relative;
+        top: 70px;
+        width: 150px;
+        left: -52px;
+        font-size: 13px;
+    }
+    footer{
+        background-color:rgb(255, 54, 54);
+        height: 230px;
+    }
+    .footer{
+        display: flex;
+        padding: 20px 120px;
+    }
+    footer .footer-rights{
+        text-align: center;
+    }
+    @media screen and (max-width: 1400px)
+    {
+        .vertical-title, .vertical-desc
+        {
+            left: 45px;
+        }
+        .SecondSection .box
+        {
+            width: 40vw;
+        }
+        nav
+        {
+            flex-direction: column;
+        }
+        .box
+        {
+            flex-direction: column;
+        }
+        .SecondSection .vertical
+        {
+            height: 20vh;
+            margin:.3rem auto!important ;
+            
+        }
+        .FirstSection
+        {
+            flex-direction: column-reverse;
+        }
+        .LeftSection
+        {
+            display: flex;
+            width: 100% !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .RightSection
+        {
+            width: 721px !important;
+            display: flex;
+            justify-content: center;
+        }
+        .RightSection img
+        {
+            padding: 15%;
+            margin: auto;
+            display: block;
+            margin-bottom: 70px;
+            width: 45vw;
+        }
+        .image-top
+        {
+            top: 130px;
+        }
+        .SecondSection
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+        .container {
+            background-color: rgb(250, 160, 160);
+            border: 3px solid;
+            padding: 10px;
+            height: 210px;
+            
+        }
+        body{
+            min-width: fit-content;
+        }
+            
+    }
+    </style>
+</head>
+<body>
+    <header>
+     <nav>
+      <div class="left">Apna Mechanic</div>  
+      <div class="right">
+        <ul>
+            <li><a href="index.html">Start</a></li>
+            <li><a href="theme.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>   
+        </ul>
+      </div>  
+     </nav>   
+    </header>
+<main>
+ <section class="FirstSection">
+    <div class="LeftSection"><div class="row">
+        <section class="service-section pt-5 pb-5">
+            <div class="container-fluid">
+                <h2 style="text-align: center;"><strong> Our &amp; Services</strong></h2>
+                <ul>
+                    <br>
+                <li>Periodic Service</li>
+                <li>AC Service and Repair</li>
+                <li>Suspension and Fitments</li>
+                <li>Detailing Service</li>
+                <li>Tyres and Wheel Care</li>
+                <li>Denting and Painting</li>
+                <li>Accidental Car Repair</li>
+                <li>Clutch and Body Parts</li>
+                <li>Car Spa and Cleaning</li>
+                </ul>
+                </div>
+            </div>
+        </section>   
+</section>
+<hr>
+    </section>   
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3> Apna Mechanic</h3>
+            <br> <h4>Contact Us</h4>
+            <br>
+            <h5>Phone No:- +91-7987734353</h5>
+            <h5>Email:- apnamechanic@gmail.com</h5>
+        </div>
+    </div>
+    <div class="footer-rights">
+       Copyright &#169; Apna Mechanic  | All Rights Reserved
+    </div>
+</footer>
+
+</body>
+</html>
